@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+.menu_bar_entry {
+  color: white;
+  background-color: black;
+}
+
+.menu_bar_entry:hover {
+  color: black;
+  background-color: white;
+}
