@@ -1,15 +1,23 @@
 body {
   background-color: black;
 }
-.menu_bar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 40px;
-  font-size: 25px;
+
+#navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    cellspacing: 0;
+    cellpadding: 0;
+    border: 0;
+    list-style-type: none; 
+} 
+
+#navbar ul li {
+    display: inline; 
 }
 
 .menu_bar_entry {
+  text-decoration: none; 
+    padding: .2em 1em; 
   color: white;
   background-color: black;
 }
