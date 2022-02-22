@@ -1,28 +1,132 @@
 body {
   margin: 0;
+
   font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  line-height: 1.5;
+
+  background-color: white;
 }
 
 .topnav {
+  margin: 1rem;
   overflow: hidden;
-  background-color: #333;
+  padding-top: 0.5%;
+  font-weight: 500;
+
+  background-color: white;
 }
 
 .topnav a {
+  margin: 0 .25rem 0 .25rem;
+  border-radius: 10px;
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: .5rem 1rem;
   text-decoration: none;
   font-size: 17px;
+  line-height: 1;
+
+  color: rgba(55,65,81, 1);
+  background-color: white;
+}
+
+.topnav p {
+  margin: 0 .25rem 0 .25rem;
+  border-radius: 10px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 1;
+
+  color: rgba(55,65,81, 1);
+  background-color: white;
+}
+
+.topnav a:first-child {
+  margin-left: 12.5%;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgba(55,65,81, 1);
+  background-color: rgba(229,231,235, 1); 
 }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+
+.space_1 {
+  margin: 0 10% 0 10%;
+}
+
+.space_2 {
+  margin: 0 2% 0 2%;
+}
+a.active {
+  color: rgba(55,65,81, 1);
+  background-color: rgba(229,231,235, 1); 
 }
