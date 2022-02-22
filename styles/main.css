@@ -1,5 +1,12 @@
 body {
+  margin: 0;
   background-color: black;
+}
+
+#navbar{
+ position:relative;
+ width:100px;
+ height:auto;
 }
 
 #navbar ul { 
